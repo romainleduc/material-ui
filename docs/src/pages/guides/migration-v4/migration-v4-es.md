@@ -197,6 +197,16 @@ const theme = createMuitheme({
   +import AlertTitle from '@material-ui/core/AlertTitle';
   ```
 
+
+  ### Autocompletado
+
+- Mueve el componente del laboratorio al core. El componente ahora es estable.
+
+  ```diff
+  -import Autocomplete from '@material-ui/lab/Autocomplete';
+  +import Autocomplete from '@material-ui/core/Autocomplete';
+  ```
+
 ### Avatar
 
 - Renombrar `circle` a `circular` por consistencia. Los valores posibles deben ser adjetivos, no sustantivos:
