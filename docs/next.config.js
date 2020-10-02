@@ -22,7 +22,7 @@ const workspaceRoot = path.join(__dirname, '../');
 const reactMode = 'legacy';
 // eslint-disable-next-line no-console
 console.log(`Using React '${reactMode}' mode.`);
-console.log('branch: "%s", netlify: %s', process.env.BRANCH, process.env.NETLIFY);
+console.log('HEAD: "%s", netlify: %s', process.env.HEAD, process.env.NETLIFY);
 
 
 module.exports = {
