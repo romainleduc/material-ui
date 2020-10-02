@@ -197,6 +197,16 @@ const theme = createMuitheme({
   +import AlertTitle from '@material-ui/core/AlertTitle';
   ```
 
+
+  ### Autocomplete 自动补全组件
+
+- 该组件已从实验室包移动到核心包。 现在这个组件处于稳定版本。
+
+  ```diff
+  -import Autocomplete from '@material-ui/lab/Autocomplete';
+  +import Autocomplete from '@material-ui/core/Autocomplete';
+  ```
+
 ### Avatar 头像组件
 
 - 为保持一致性，我们将 `circle` 重命名为 `circular`。 可能的值应该是形容词，而不是名词。
